@@ -11,5 +11,5 @@ si usas docker, para iniciar el servicio de desarrollo solo ejecuta:
 ```console
 foo@bar:~$ docker-compose up -d 
 ```
-o si no usas dockerm, usa node16
+o si no usas docker, usa node16
 
