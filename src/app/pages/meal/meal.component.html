@@ -13,20 +13,33 @@
 							{{ meal?.strTags }}
 						</div>
 					</div>
+					
 
 					<h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">
 						{{ meal?.strMeal }}
 					</h4>
 
+					<div class="mt-4">
+						<span class="text-teal-600 text-md font-semibold">Ingredients
+						</span>
+					</div>
+
+					<div class="mt-4 ml-3">
+						<ul class="list-disc">
+							<li *ngFor="let ingredient of meal?.ingredientAndQuantity">{{ingredient}}</li>
+						</ul>
+					</div>
+					
+					<div class="mt-4">
+						<span class="text-teal-600 text-md font-semibold">Instruccions
+						</span>
+					</div>
+
 					<div class="mt-1">{{ meal?.strInstructions }}
 						<span class="text-gray-600 text-sm">
 						</span>
 					</div>
-					<div class="mt-4">
-						<span class="text-teal-600 text-md font-semibold">{{ meal?.strArea }}
-						</span>
-					</div>
-
+				
 					<div class="mt-4">
 						<button type="button"
 							routerLink=""
