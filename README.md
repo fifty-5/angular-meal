@@ -1,15 +1,16 @@
-## example
+## Ejemplo 
 
 https://angular-meal.vercel.app/
 
-## consideraciones
+## deployment
 
-Se utilizó tailwind cdn por cuestiones de tiempo no se instaló, esto es bien sabido que no debería ser así en producción.
-
-si usas docker, para iniciar el servicio de desarrollo solo ejecuta:
+Inicia los servicios con:
 
 ```console
 foo@bar:~$ docker-compose up -d 
 ```
-o si no usas docker, usa node16
+
+[Visita aquí para más información](https://fifty5.biz/posts/javascript/el-verbo-get-con-app-de-comida-en-angular-y-docker/).
+
+
 
